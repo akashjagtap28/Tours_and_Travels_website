@@ -1,0 +1,137 @@
+
+.whatever{
+    background-color: #6d5d6e;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+   margin-bottom: 10px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   padding-top: 5px;
+   cursor: pointer;
+   color: white;
+   
+   background-color: black;
+   opacity: 0.6;
+  
+    
+}
+
+#checkboxes input[type=checkbox]{
+    display: none;
+}
+
+#checkboxes input[type=checkbox]:checked + .whatever{
+    background-color: green;
+}
+
+#checkboxes input[type="checkbox"]:disabled + .whatever,
+#checkboxes input[type="checkbox"][disabled="disabled"]:checked + .whatever{
+    background-color: #e71414;
+}
+.bus{
+    
+    
+    border-style: solid;
+    border-width: 1px;
+    height: 600px;
+    max-width: 270px;
+    margin-left: 200px;
+    margin-top: 30px;
+    padding: 25px 10px 10px 10px;
+    text-align: center;
+    display: inline-block;
+    
+}
+.labels{
+  
+    
+    display: inline-block;
+  
+    margin-left: 50px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    height: 200px;
+   max-width: 200px;
+}
+.div1{
+   
+    display: flex;
+    
+}
+.btn3{
+    background-color: black;
+   opacity: 0.6;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+   margin-bottom: 10px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   padding-top: 5px;
+
+}
+.lbl1{
+  margin-left: 25px;
+   margin-top: 10px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.bookseat{
+    margin-top: 30px;
+    height: 300px;
+    max-width: 400px;
+    background-color: white;
+   
+    box-shadow: rgba(0,0,0, 0.24) 0px 3px 8px;
+   margin-left: 200px;
+}
+ul{
+    list-style: none;
+}
+
+.seatli{
+    margin-top: 30px;
+    font-weight: bold;
+    
+}
+
+.boarding
+{
+  height: 187px;
+  max-width:900px;
+  background-color:transparent;
+  opacity: 0.9;
+  position: absolute;
+  left: 30%;
+  margin-top: 400px;
+  
+}
+.boarding ul
+{
+  
+  text-align:left;
+  list-style:none;
+  text-decoration: none;
+  margin-left: 40px;
+
+}
+.boarding ul li
+{
+  
+  padding-top: 20px;
+  float:left;
+  text-decoration: none;
+  list-style:none;
+  max-width:250px;
+  
+  color: black;
+  text-align: left;
+}
+.dropdown{
+    margin-top: 5px;
+}
+.search{
+   margin-top: 10px;
+}
